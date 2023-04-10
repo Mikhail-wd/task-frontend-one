@@ -1,0 +1,73 @@
+
+.app  {
+  max-width: 45%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.app label {
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #6e6d6d;
+  line-height: 56px;  
+}
+.app input {
+  float: right;
+  position: relative;
+  width: 336px;
+  top:-8px;
+  border-radius: 9px;
+  border: solid 0.5px;
+  font-size: 21px;
+  padding: 10px 15px;
+  
+}
+.app select {
+  float: left;
+  position: relative;
+  width: 336px;
+  top:-8px;
+  border-radius: 9px;
+  border: solid 0.5px;
+  font-size: 21px;
+  padding: 10px 15px;
+}
+
+.app label input.avatar{
+  border: none;
+}
+
+.error {
+  color:red;
+}
+
+.button {
+  align-self: center;
+  width: 300px;
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(17, 18, 19);
+  border-radius: 20px;
+  background-color: #bdbb5d;
+  border: none;
+  padding: 10px 50px;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width:1436px) {
+  .app {
+    max-width: 380px;
+    min-width: 380px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .app {
+    margin-left: -34px;
+    transform:scale(0.7)
+  }
+}
